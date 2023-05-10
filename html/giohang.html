@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTL-Trang chủ</title>
+
+    <link rel="stylesheet" href="../bootstrap-4.6.2-dist/bootstrap-4.6.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/trangchu.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <script src="../jquery-3.6.4.js"></script>
+    <script src="../bootstrap-4.6.2-dist/bootstrap-4.6.2-dist/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+          $('.carousel').carousel({
+            interval: 3000 // thời gian chuyển đổi giữa các hình ảnh là 3 giây
+          });
+        });
+    </script>
+      
+</head>
+
+<body>
+    <div class="main">
+        <header id="header">
+            <div class="header-top">
+                <div class="container">
+                    <img src="../img/logo email.webp" alt="Email" ,
+                        style="width: 2%;height: 26px;margin-top: 3px;margin-left: -25px;">
+                    <p style="color: #333;margin-left: -167px;margin-top: 5px;">ttlstore@gmail.com</p>
+                    <div class="search-item-1"></div>
+                    <div>
+                        <p class="Mienphigiaohang">Cam kết giao hàng nhanh 24/24</p>
+
+                        <a href="https://www.facebook.com/xedapdienhinatacongnghenhatban"
+                            style="text-decoration: none;">
+                            <img src="../img/logo facebook.png" alt="facebook" ,
+                                style="width: 16%;height: 20px;margin-top: 4px;margin-left: -20px;">
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=Qj3BKOgmXhA" style="text-decoration: none;">
+                            <img src="../img/logo twitter.png" alt="twitter" ,
+                                style="width: 28%;height: 26px;margin-top: 6px;margin-left: 15px;">
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=Qj3BKOgmXhA" style="text-decoration: none;">
+                            <img src="../img/logo utube-2.webp" alt="youtube" ,
+                                style="width: 29%;height: 27px;margin-top: 4px;margin-left: 13px;">
+                        </a>
+                    </div>
+                    <div class="search-item-2"></div>
+                    <div class="button">
+                        <img src="../img/logo co VN.webp" alt="VietNam"
+                            style="width: 16%;height: 20px;margin-top: -5px;margin-right: 179px;">
+                        <div class="drop-down">
+                            <button type="button" class="btn dropdown-toggle bg-success text-dark border-success"
+                                data-toggle="dropdown">
+                                Tiếng Việt
+                            </button>
+                            <div class="dropdown-menu">
+                                <h5 class="dropdown-header">Ngôn ngữ khác</h5>
+                                <a class="dropdown-item" href="#">Tiếng Anh</a>
+                                <a class="dropdown-item" href="#">Tiếng Trung Quố</a>
+                                <a class="dropdown-item" href="#">Tiếng Lào</a>
+
+                            </div>
+                        </div>
+
+                        <div style="margin-top: -32px;margin-right: -82px;">
+                            <img src="../img/login2.png" alt="logo login"
+                                style="width: 10%; height: 25px; vertical-align: middle;">
+                            <a href="" data-toggle="modal" data-target="#frmdn"
+                                style="display: inline-block; margin-left: 5px; vertical-align: middle;">
+                                <p style="margin: 0;">Đăng nhập</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-main">
+                <div class="container">
+                    <div class="logo">
+                        <img src="../img/TTL (1).png " alt="logo"
+                            style="margin-top: -50px;margin-left: -50px;width: 165%;height: 179px;">
+                    </div>
+                    <div class="search">
+                        <div class="search-txt">
+                            <input type="text" placeholder="Hãy chọn chiếc xe mà bạn mong muốn...">
+                        </div>
+                        <div class="search-right">
+                            <div class="search-item"></div>
+                            <div class="search-select">
+                                <div class="search-dropdown">
+                                    <span></span>
+                                    <img src="../img/logo mui ten xuong.jpg" alt="#"
+                                        style="width: 15px;height: 12px;margin-top: 0px;margin-left: 196px;">
+                                </div>
+                                <div class="item-dropdown">
+                                    <a href="#">
+                                        <span style="color:#28A744;">Tất cả danh mục</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <img src="../img/search.png" alt="#"
+                                style="width: 29px;height: 27px;margin-top: 0px;margin-left: 47px;cursor: pointer;">
+                        </div>
+                    </div>
+
+                    <div class="cart" id="modal-cart">
+                        <div class="icon-shopping">
+                            <img src="../img/Shopping cart simple 1.png" alt="#"
+                                style="width: 33px; height: 36px; margin-top: 26px; margin-left: -53px; cursor: pointer;">
+                            <div class="icon-count-item">
+                                <span class="count-item"
+                                    style="background-color:#28A744;color: white; border-radius: 10px; display: inline-block; text-align: center; width: 20px; height: 20px; line-height: 20px; font-size: 14px; cursor: pointer;">0</span>
+                            </div>
+                        </div>
+                        <div style="position: relative;" class="icon-heart">
+                            <img src="../img/logo trai tim-2.jpg" alt="#"
+                                style="width: 37px; height: 39px;margin-top: -22px;margin-left: 9px; cursor: pointer;">
+                            <div class="icon-count-item-2" style="position: absolute;top: -23px;right: -11px;">
+                                <span class="count-item-heart-2"
+                                    style="background-color:#28A744;color: white; border-radius: 10px; display: inline-block; text-align: center; width: 20px; height: 20px; line-height: 20px; font-size: 14px; cursor: pointer;">3</span>
+                            </div>
+                        </div>
+                        <div class="cart-tooltip">Chưa có sản phẩm nào trong giỏ hàng</div>
+                        <div class="cart-tooltip-heart">Thả tim cho cửa hàng của chúng tôi nhé</div>
+
+                    </div>
+
+        </header>
+        <!-- --------------------- -->
+        <section>
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="Home" style="margin-left: -48px;margin-top: 9px;">
+                        <a href="">
+                            <img src="../img/icontrangchu.png" alt="Trang chủ">
+                            <h1><a href="http://127.0.0.1:5504/html/trangchu.html" style="color: #28A744;">Trang chủ</a>
+                            </h1>
+                        </a>
+
+
+                        <div class="TTL" style="margin-left: 236px;margin-top: -53px;">
+                            <a href="">
+                                <img src="../img/tintuc.jpg" alt="Về TTL">
+                                <h1> <a href="http://127.0.0.1:5504/html/gioithieu.html" style="color: #28A744;">Giới thiệu
+                                        về TTL</a></h1>
+                            </a>
+                        </div>
+
+
+                        
+
+
+                        <div class="Product" style="margin-left: 508px;margin-top: -37px;">
+                            <a href="">
+                                <img class="img-Product" src="../img/logo3.png" alt="Sản phẩm"
+                                    style="width: 64px;height: 45px;margin-left: 26px;margin-top: -7px;">
+                                <h1><a href="http://127.0.0.1:5504/html/trangsanpham.html" style="color: #28A744;">Sản phẩm</a></h1>
+
+                                <ul class="menu-child">
+                                    <li><a href="sp1.html">E-Bike BOMELLI 18</a></li>
+                                    <li><a href="sp2.html">E-Bike BOMELLI 18 Nhún Sau</a></li>
+                                    <li><a href="sp3.html">E-BIKE DK Miku MaxS Bánh 16 Inches</a></li>
+                                    <li><a href="sp4.html">Xe Đạp Điện E-BIKE DK Miku Max IV - Bánh 18 Inches</a></li>
+                                    <li><a href="sp5.html">Xe Đạp Điện E-Bike BOMELLI 18 Nhún Sau</a></li>
+                                    <li><a href="sp6.html">Xe Đạp Điện E-BIKE DK Miku Max S - Bánh 16 Inches</a></li>
+                                    <li><a href="sp1.html">Xe Đạp Điện KingBike M5 Giá Rẻ Cho Mọi Nhà</a></li>
+                                    <li><a href="sp2.html">Hinata Xe Điện Gấp Gọn Xe Gập Thể Thao M1</a></li>
+                                    <li><a href="sp3.html">XE ĐIỆN 2 BÁNH - HINATA M3</a></li>
+                                    <li><a href="sp4.html">XE ĐIỆN 2 BÁNH HINATA</a></li>
+                                    <li><a href="sp5.html">Hinata Xe Đạp Điện M2 Cho Học Sinh Và Người Lớn</a></li>
+                                    <li><a href="sp6.html">XE ĐIỆN 2 BÁNH - HINATA M7</a></li>
+                                    <li><a href="sp1.html">Xe đạp điện Sarune</a></li>
+                                    <li><a href="sp2.html">Xe đạp điện Lihaze</a></li>
+                                    <li><a href="sp3.html">Xe đạp điện Martin 107</a></li>
+                                </ul>
+                            </a>
+                        </div>
+
+                        <div class="col-md-3" style="margin-top: 10px; margin-right: -75px;">
+                            <img src="../img/Telephone.png" alt="telephone" style="margin-top: -78px;margin-left: 8px;">
+                            <h1 style="margin-right: -191px;margin-top: -62px;display: flex;font-size: 22px;"
+                                class="text-danger">Hotline: 028 99999 262</h1>
+                        </div>
+                    </div>
+        </section>
+<!-- ------------------------------------------------------------------ -->
+
+        <div class="col-10">
+            <h1 style="margin-left: 10px;">SẢN PHẨM ĐÃ MUA</h1>
+            <br>
+            <table class="table table-bordered ">
+                <tr>
+                    <th>STT</th>
+                    <th>Họ và tên</th>
+                    <th>Số điện thoại</th>
+                    <th>Địa chỉ</th>
+                    <th>Sản phẩm</th>
+                    
+                </tr>
+            </table>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <img src="../img/tuvansanpham.jpg" class="tuvansanpham" alt="Tư vấn sản phẩm">
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="row" id="footer">
+                <div class="col-md-3" id="footer-1">
+                    <img class="logo" src="../img/TTL (1).png" alt="">
+                    <p>Trong những năm qua, các sản phẩm của Xe điện Hinata của cửa hàng TTL chúng tôi đã thể hiện 
+                        1 cam kết nhất định trong hoạt động kinh doanh, 
+                        đó là tập trung vào chất lượng sản phẩm, lấy khách hàng là yếu tố cốt lõi để phát triển.</p>
+
+                        <b>MẠNG XÃ HỘI</b>
+                        <div>
+                            <a href="https://www.facebook.com/xedapdienhinatacongnghenhatban" style="text-decoration: none;">
+                                <img class="facebook" src="../img/facebook-tron.png" alt="#">
+                            </a>
+                            
+                            <a href="https://www.youtube.com/watch?v=Qj3BKOgmXhA" style="text-decoration: none;">
+                                <img class="youtube" src="../img/utube-tron.png" alt="#" style="width: 27px;height: 27px;margin-left: 13px;margin-top: 15px;">
+                            </a>
+
+                            <a href="https://www.youtube.com/watch?v=Qj3BKOgmXhA">
+                                <img class="twitter" src="../img/twwiter-tron (1).png" alt="#" style="width: 25px;height: 23px;margin-left: 13px;margin-top: 15px;">
+                            </a>
+                           
+                        </div>
+                
+                </div>
+                <div class="col-md-3"  id="footer-2">
+                    <b>HỖ TRỢ BÁN HÀNG</b>
+                    <ul>
+                        <li><a href="">Hotline: 0398146777 ( Miễn phí 100% cước gọi)</a></li>
+                        <li><a href="">Điện Thoại: 0343645069</a></li>
+                        <li><a href="">Email: ttlstore@gmail.com</a></li>
+                        <li><a href="">Làm việc từ 8h00 đến 20h00 (Tất cả các ngày trong tuần)</a></li>
+                        <li><a href="">Địa chỉ:</a></li>
+                        <li><a href="">Cơ sở 1: Số 1 Nguyễn Phong Sắc, Cầu Giấy, Hà Nội.</a></li>
+                        <li><a href="">Cơ sở 2: Số 2, đường Số 2, Tân Tạo, Khu công nghiệp Tân Tạo, Hồ Chí Minh.</a></li>
+                    </ul>
+                   
+                </div>
+                <div class="col-md-3"  id="footer-3">
+                    <b>VỀ CHÚNG TÔI</b>
+                        <ul>
+                            <li><a href="">Giới thiệu về TTL</a></li>
+                            <li><a href="">Liên hệ </a></li>
+                            <li><a href="">Cam kết thông tin</a></li>
+                        </ul>
+                </div>
+                <div class="col-md-3" id="footer-4">
+                    <b>CHÍNH SÁCH CHUNG</b>
+                    <ul>
+                        <li><a href="">Bảo mật thông tin</a></li>
+                        <li><a href="">Chính sách bảo hành</a></li>
+                        <li><a href="">Phương thức thanh toán</a></li>
+                        <li><a href="">Phương thức vận chuyển</a></li>
+                        <li><a href="">Chính sách đổi trả</a></li>
+                        <li><a href="">Giao hàng và vận chuyển</a></li>
+                        <li><a href="">Hướng dẫn mua hàng</a></li>
+                        <li><a href="">Hướng dẫn Trả góp</a></li>
+                    </ul>
+                </div>
+
+            </div>
+       
+        </footer>
+
+        <div class="row" id="footer-tail">
+            <div class="frame-footer-tail">
+                <div class="content-footer-tail">
+                    <p>© 2020 - Bản quyền của Xe điện Hinata</p>
+                </div>
+                <div class="img-footer-tail">
+                    <img src="../img/tien-mat.png" alt="#">
+                    <img src="../img/internet-bank.png" alt="#">
+                    <img src="../img/mastercard.png" alt="#">
+                    <img src="../img/visa.png" alt="#">
+                    <img src="../img/bo-cong-thuong.png" alt="#" style="width: 223px;height: 119px;">
+                </div>
+            </div>
+        </div>
+        
+
+
+        <!-- modal -->
+        <div class="modal fade" id="frmdk">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="row", style="height: 550px;">
+                        <div class="modal-header">
+                            <div class="col-md-12">
+                                <button data-dismiss="modal" class="close bg-success" style=" border: 1px solid #28A744;  border-radius: 7%;">&times;</button>
+                            </div>
+                        </div>
+
+
+                        <div class="modal-body">
+                            <div class="col-md-6" id="dangnhap">
+                                <h3 class="text-center text-success">ĐĂNG NHẬP</h3>
+                                
+                                <label for="username">Tên tài khoản hoặc địa chỉ email *</label>
+                                <input type="email" name="username" id="username" class="form-control input--username">
+
+                                <label for="password">Mật khẩu *</label>
+                                <input type="password" name="password" id="password" class="form-control input--password">
+
+                                <div>
+                                    <input type="checkbox" name="remember-pass" id="remember-pass" class="form-control-input">
+                                    <label for="remember-pass" class="form-control-label">Ghi nhớ mật khẩu</label>
+                                </div>
+
+                                <button type="submit" class="bg-success" id="login">ĐĂNG NHẬP</button>
+
+                                <h5 class="text-success" style="margin-top: 20px; font-size: 18px; font-style: italic; cursor: pointer;" id="forget-pass">Quên mật khẩu ?</h5>
+                            </div>
+
+                            <div class="col-md-6" id="dangky">
+                                <h3 class="text-center text-success">ĐĂNG KÝ</h3>
+                                
+                                <label for="username-2">Tên tài khoản *</label>
+                                <input type="text" name="username-2" id="username-2" class="form-control input--username2">
+
+                                <label for="email-2">Email *</label>
+                                <input type="email" name="email-2" id="email-2" class="form-control input--email2">
+
+                                <label for="password-2">Mật khẩu *</label>
+                                <input type="password" name="password-2" id="password-2" class="form-control input--password2">
+
+                                <p>Thông tin về tài khoản của bạn được dùng để tăng trải nghiệm mua hàng của bạn. Chi tiết tại <b>chính sách riêng tư.</b></p>
+
+                                <button type="submit" class="bg-success" id="register2">ĐĂNG KÝ</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="modal-footer">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                 <p style="font-size: 20px; color:#28A744; font-style: italic;">TTL rất hân hạnh được phục vụ quý khách</p>
+                                </div>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

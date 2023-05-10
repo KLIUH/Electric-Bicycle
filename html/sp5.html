@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTL-Trang chủ</title>
+
+    <link rel="stylesheet" href="../bootstrap-4.6.2-dist/bootstrap-4.6.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/trangchu.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <script src="../jquery-3.6.4.js"></script>
+    <script src="../bootstrap-4.6.2-dist/bootstrap-4.6.2-dist/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+    
+</head>
+
+<body>
+    <div class="main">
+        <header id="header">
+            <div class="header-top">
+                <div class="container">
+                    <img src="../img/logo email.webp" alt="Email" ,
+                        style="width: 2%;height: 26px;margin-top: 3px;margin-left: -25px;">
+                    <p style="color: #333;margin-left: -167px;margin-top: 5px;">ttlstore@gmail.com</p>
+                    <div class="search-item-1"></div>
+                    <div>
+                        <p class="Mienphigiaohang">Cam kết giao hàng nhanh 24/24</p>
+
+                        <a href="https://www.facebook.com/xedapdienhinatacongnghenhatban"
+                            style="text-decoration: none;">
+                            <img src="../img/logo facebook.png" alt="facebook" ,
+                                style="width: 16%;height: 20px;margin-top: 4px;margin-left: -20px;">
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=Qj3BKOgmXhA" style="text-decoration: none;">
+                            <img src="../img/logo twitter.png" alt="twitter" ,
+                                style="width: 28%;height: 26px;margin-top: 6px;margin-left: 15px;">
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=Qj3BKOgmXhA" style="text-decoration: none;">
+                            <img src="../img/logo utube-2.webp" alt="youtube" ,
+                                style="width: 29%;height: 27px;margin-top: 4px;margin-left: 13px;">
+                        </a>
+                    </div>
+                    <div class="search-item-2"></div>
+                    <div class="button">
+                        <img src="../img/logo co VN.webp" alt="VietNam"
+                            style="width: 16%;height: 20px;margin-top: -5px;margin-right: 179px;">
+                        <div class="drop-down">
+                            <button type="button" class="btn dropdown-toggle bg-success text-dark border-success"
+                                data-toggle="dropdown">
+                                Tiếng Việt
+                            </button>
+                            <div class="dropdown-menu">
+                                <h5 class="dropdown-header">Ngôn ngữ khác</h5>
+                                <a class="dropdown-item" href="#">Tiếng Anh</a>
+                                <a class="dropdown-item" href="#">Tiếng Trung Quố</a>
+                                <a class="dropdown-item" href="#">Tiếng Lào</a>
+
+                            </div>
+                        </div>
+
+                        <div style="margin-top: -32px;margin-right: -82px;">
+                            <img src="../img/login2.png" alt="logo login"
+                                style="width: 10%; height: 25px; vertical-align: middle;">
+                            <a href="" data-toggle="modal" data-target="#frmdn"
+                                style="display: inline-block; margin-left: 5px; vertical-align: middle;">
+                                <p style="margin: 0;">Đăng nhập</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-main">
+                <div class="container">
+                    <div class="logo">
+                        <img src="../img/TTL (1).png " alt="logo"
+                            style="margin-top: -50px;margin-left: -50px;width: 165%;height: 179px;">
+                    </div>
+                    <div class="search">
+                        <div class="search-txt">
+                            <input type="text" placeholder="Hãy chọn chiếc xe mà bạn mong muốn...">
+                        </div>
+                        <div class="search-right">
+                            <div class="search-item"></div>
+                            <div class="search-select">
+                                <div class="search-dropdown">
+                                    <span></span>
+                                    <img src="../img/logo mui ten xuong.jpg" alt="#"
+                                        style="width: 15px;height: 12px;margin-top: 0px;margin-left: 196px;">
+                                </div>
+                                <div class="item-dropdown">
+                                    <a href="#">
+                                        <span style="color:#28A744;">Tất cả danh mục</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <img src="../img/search.png" alt="#"
+                                style="width: 29px;height: 27px;margin-top: 0px;margin-left: 47px;cursor: pointer;">
+                        </div>
+                    </div>
+
+                    <div class="cart" id="modal-cart">
+                        <div class="icon-shopping">
+                            <img src="../img/Shopping cart simple 1.png" alt="#"
+                                style="width: 33px; height: 36px; margin-top: 26px; margin-left: -53px; cursor: pointer;">
+                            <div class="icon-count-item">
+                                <span class="count-item"
+                                    style="background-color:#28A744;color: white; border-radius: 10px; display: inline-block; text-align: center; width: 20px; height: 20px; line-height: 20px; font-size: 14px; cursor: pointer;">0</span>
+                            </div>
+                        </div>
+                        <div style="position: relative;" class="icon-heart">
+                            <img src="../img/logo trai tim-2.jpg" alt="#"
+                                style="width: 37px; height: 39px;margin-top: -22px;margin-left: 9px; cursor: pointer;">
+                            <div class="icon-count-item-2" style="position: absolute;top: -23px;right: -11px;">
+                                <span class="count-item-heart-2"
+                                    style="background-color:#28A744;color: white; border-radius: 10px; display: inline-block; text-align: center; width: 20px; height: 20px; line-height: 20px; font-size: 14px; cursor: pointer;">3</span>
+                            </div>
+                        </div>
+                        <div class="cart-tooltip">Chưa có sản phẩm nào trong giỏ hàng</div>
+                        <div class="cart-tooltip-heart">Thả tim cho cửa hàng của chúng tôi nhé</div>
+
+                    </div>
+
+        </header>
+        <!-- --------------------- -->
+        <section>
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="Home" style="margin-left: -48px;margin-top: 9px;">
+                        <a href="">
+                            <img src="../img/icontrangchu.png" alt="Trang chủ">
+                            <h1><a href="http://127.0.0.1:5504/html/trangchu.html" style="color: #28A744;">Trang chủ</a>
+                            </h1>
+                        </a>
+
+
+                        <div class="TTL" style="margin-left: 236px;margin-top: -53px;">
+                            <a href="">
+                                <img src="../img/tintuc.jpg" alt="Về TTL">
+                                <h1> <a href="http://127.0.0.1:5504/html/gioithieu.html" style="color: #28A744;">Giới thiệu
+                                        về TTL</a></h1>
+                            </a>
+                        </div>
+
+
+                        <div class="Product" style="margin-left: 508px;margin-top: -37px;">
+                            <a href="">
+                                <img class="img-Product" src="../img/logo3.png" alt="Sản phẩm"
+                                    style="width: 64px;height: 45px;margin-left: 26px;margin-top: -7px;">
+                                <h1><a href="http://127.0.0.1:5504/html/trangsanpham.html" style="color: #333;">Sản phẩm</a></h1>
+
+                                <ul class="menu-child">
+                                    <li><a href="sp1.html">E-Bike BOMELLI 18</a></li>
+                                    <li><a href="sp2.html">E-Bike BOMELLI 18 Nhún Sau</a></li>
+                                    <li><a href="sp3.html">E-BIKE DK Miku MaxS Bánh 16 Inches</a></li>
+                                    <li><a href="sp4.html">Xe Đạp Điện E-BIKE DK Miku Max IV - Bánh 18 Inches</a></li>
+                                    <li><a href="sp5.html">Xe Đạp Điện E-Bike BOMELLI 18 Nhún Sau</a></li>
+                                    <li><a href="sp6.html">Xe Đạp Điện E-BIKE DK Miku Max S - Bánh 16 Inches</a></li>
+                                    <li><a href="sp1.html">Xe Đạp Điện KingBike M5 Giá Rẻ Cho Mọi Nhà</a></li>
+                                    <li><a href="sp2.html">Hinata Xe Điện Gấp Gọn Xe Gập Thể Thao M1</a></li>
+                                    <li><a href="sp3.html">XE ĐIỆN 2 BÁNH - HINATA M3</a></li>
+                                    <li><a href="sp4.html">XE ĐIỆN 2 BÁNH HINATA</a></li>
+                                    <li><a href="sp5.html">Hinata Xe Đạp Điện M2 Cho Học Sinh Và Người Lớn</a></li>
+                                    <li><a href="sp6.html">XE ĐIỆN 2 BÁNH - HINATA M7</a></li>
+                                    <li><a href="sp1.html">Xe đạp điện Sarune</a></li>
+                                    <li><a href="sp2.html">Xe đạp điện Lihaze</a></li>
+                                    <li><a href="sp3.html">Xe đạp điện Martin 107</a></li>
+                                </ul>
+                            </a>
+                        </div>
+
+                        <div class="col-md-3" style="margin-top: 10px; margin-right: -75px;">
+                            <img src="../img/Telephone.png" alt="telephone" style="margin-top: -78px;margin-left: 8px;">
+                            <h1 style="margin-right: -191px;margin-top: -62px;display: flex;font-size: 22px;"
+                                class="text-danger">Hotline: 028 99999 262</h1>
+                        </div>
+                    </div>
+        </section>
+<!-- ------------------------------------------------------------------ --><div class="container mt-3">
+    <div class="row" style="border-bottom: 2px solid black; height: auto;">
+        <div class="col-6">
+            <img style="width: 100%;" src="../img/sp5.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-6  bg-light">
+          <h2 style="text-align: left; color: green;">Xe Đạp Điện E-BIKE DK Tron Z – Bánh 18 Inches</h2>
+          <h7 style="color: red;"><span>13.500.000<sup>đ</sup></span></h7>
+          <h3><span>12.800.000<sup>đ</sup></span></h3>
+          <h6 style="color:green;">Còn hàng</h6>
+          <div class="row">
+            <div class="col-2">
+              <input style="width: 50px; outline: none; " type="number" value="1" min="1">
+            </div>
+            <div class="col-10">
+              <button style="background-color: green; color: aliceblue;">Thêm vào giỏ</button>
+            </div>
+            
+          </div>
+          <div class="row">
+            <button class="mt-3 col-11 text-align:center ml-auto mr-auto" style="background-color: green; color: aliceblue; ;">Mua Ngay</button>
+          </div>
+          
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-7">
+          <h4 style="color: green;">Mô tả sản phẩm</h4>
+          <p style="color: black; text-align:justify;"><a style="font-weight: bold;">Xe đạp điện DK Tron Z</a> có thiết kế đại diện cho sự mạnh mẽ, trẻ trung của thế hệ mới, được tích hợp những công nghệ thông minh nhất sử dụng cho dòng xe đạp điện hiện nay. Bộ tem thiết kế lạ mắt với chất lượng sơn bền màu, chống nước và chống xước. Cùng thiết kế khung xe đặc trưng nhưng vẫn đảm bảo sự chắc chắn và bển bỉ cùng thời gian.</p>
+          <div>
+              <img style="width: 100%;" src="../img/sp5-2.png" alt="">
+            </a>
+          </div>
+          <p>Xe đạp điện DK Tron Z được trang bị 4 bình ắc quy với dung tích 48V-12Ah với kích thước hộp ắc quy nhỏ gọn không làm tăng trọng lượng của xe nhiều. Với công suất cải tiến lên đến 350W xe đạp điện DK Tron Z di chuyển mạnh mẽ và bứt phá quãng đường 50-60km sau mỗi lần sạc đầy. Bộ ắc quy được lắp phía dưới yên xe, được trang bị khoá an toàn để cố định cũng như đảm bảo an toàn khi di chuyển.</p>
+          <div>
+              <img style="width: 100%;" src="../img/sp5-3.png" alt="">
+            </a>
+          </div>
+          <p>Được trang bị thêm giảm sóc êm ái, vành đúc hợp kim, thắng cơ an toàn và lốp cao su có ruột thông dụng. Cùng công nghệ phủ nano chống nước hoàn hảo giúp xe đạp điện DK Tron Z vận hành mạnh mẽ vượt mọi địa hình dưới mọi loại thời tiết. Đèn full LED thế hệ mới chống nước tiêu chuẩn IP5 có độ sáng đạt chuẩn an toàn tuyệt đối cho người điều khiển.
+  
+              Hệ thống phanh cơ được trang bị trên xe đạp điện DK Tron Z có tính chính xác và độ nhạy cao giúp cho việc điều chỉnh tốc độ của xe dễ dàng và an toàn tuyệt đối.
+              
+              Xe đạp điện DK Tron Z còn được trang bị giỏ xe với kích thước lớn, tiện lợi để chứa các đồ dùng một cách tiện lợi và dễ dàng khi di chuyển.</p>
+          <div>
+              <img style="width: 100%;" src="../img/sp5-4.png" alt="">
+            </a>
+          </div>
+          <p>Xe đạp điện DK Tron Z là lựa chọn hàng đầu của học sinh, sinh viên hay nội trợ khi muốn tìm một phương tiện di chuyển nhanh, tiện lợi và an toàn với mọi loại đường phố. Sở hữu ngay mẫu xe đạp điện này tại Xedien.vn nhé!
+  
+              Để được tư vấn chi tiết hơn, xin liên hệ hotline 18009473</p>
+        </div>
+        <div class="col-5 tb mt-1">
+          <div class="header-tb">
+            <h3 style="text-align: center; color: aliceblue;">Thông số kĩ thuật</h3>
+          </div>
+          <div class="main-tb">
+            <div class="row">
+              <div class="col-7 ml-3 mt-2">
+                <p>Loại xe/Type</p>
+                <p>Thương hiệu/Brand</p>
+                <p>Xuất xứ/Origin/p>
+                <p>Phanh (trước/sau)/Brake (Front/Rear)</p>
+                <p>Vành (trước/sau)/Rim (Front/Rear)</p>
+                <p>Ắc quy/Battery</p>
+                <p>Dung lượng/Capacity</p>
+                <p>Công suất xe/Power</p>
+                <p>Quãng đường tối đa/Range</p>
+              </div>
+              <div class="col-3 mt-2">
+                <p style="font-weight: bold;">Xe đạp điện</p>
+                <p style="font-weight: bold;">DK Bike</p>
+                <p style="font-weight: bold;">Việt Nam</p>
+                <p style="font-weight: bold;">Cơ/Cơ</p>
+                <p style="font-weight: bold;">18″ x 2.5</p>
+                <p style="font-weight: bold;">Chì axit kín khí</p>
+                <p style="font-weight: bold;">48V – 12A</p>
+                <p style="font-weight: bold;">450W</p>
+                <p style="font-weight: bold;">40-45km/lần sạc</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <img src="../img/tuvansanpham.jpg" class="tuvansanpham" alt="Tư vấn sản phẩm">
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="row" id="footer">
+                <div class="col-md-3" id="footer-1">
+                    <img class="logo" src="../img/TTL (1).png" alt="">
+                    <p>Trong những năm qua, các sản phẩm của Xe điện Hinata của cửa hàng TTL chúng tôi đã thể hiện 
+                        1 cam kết nhất định trong hoạt động kinh doanh, 
+                        đó là tập trung vào chất lượng sản phẩm, lấy khách hàng là yếu tố cốt lõi để phát triển.</p>
+
+                        <b>MẠNG XÃ HỘI</b>
+                        <div>
+                            <a href="https://www.facebook.com/xedapdienhinatacongnghenhatban" style="text-decoration: none;">
+                                <img class="facebook" src="../img/facebook-tron.png" alt="#">
+                            </a>
+                            
+                            <a href="https://www.youtube.com/watch?v=Qj3BKOgmXhA" style="text-decoration: none;">
+                                <img class="youtube" src="../img/utube-tron.png" alt="#" style="width: 27px;height: 27px;margin-left: 13px;margin-top: 15px;">
+                            </a>
+
+                            <a href="https://www.youtube.com/watch?v=Qj3BKOgmXhA">
+                                <img class="twitter" src="../img/twwiter-tron (1).png" alt="#" style="width: 25px;height: 23px;margin-left: 13px;margin-top: 15px;">
+                            </a>
+                           
+                        </div>
+                
+                </div>
+                <div class="col-md-3"  id="footer-2">
+                    <b>HỖ TRỢ BÁN HÀNG</b>
+                    <ul>
+                        <li><a href="">Hotline: 0398146777 ( Miễn phí 100% cước gọi)</a></li>
+                        <li><a href="">Điện Thoại: 0343645069</a></li>
+                        <li><a href="">Email: ttlstore@gmail.com</a></li>
+                        <li><a href="">Làm việc từ 8h00 đến 20h00 (Tất cả các ngày trong tuần)</a></li>
+                        <li><a href="">Địa chỉ:</a></li>
+                        <li><a href="">Cơ sở 1: Số 1 Nguyễn Phong Sắc, Cầu Giấy, Hà Nội.</a></li>
+                        <li><a href="">Cơ sở 2: Số 2, đường Số 2, Tân Tạo, Khu công nghiệp Tân Tạo, Hồ Chí Minh.</a></li>
+                    </ul>
+                   
+                </div>
+                <div class="col-md-3"  id="footer-3">
+                    <b>VỀ CHÚNG TÔI</b>
+                        <ul>
+                            <li><a href="">Giới thiệu về TTL</a></li>
+                            <li><a href="">Liên hệ </a></li>
+                            <li><a href="">Cam kết thông tin</a></li>
+                        </ul>
+                </div>
+                <div class="col-md-3" id="footer-4">
+                    <b>CHÍNH SÁCH CHUNG</b>
+                    <ul>
+                        <li><a href="">Bảo mật thông tin</a></li>
+                        <li><a href="">Chính sách bảo hành</a></li>
+                        <li><a href="">Phương thức thanh toán</a></li>
+                        <li><a href="">Phương thức vận chuyển</a></li>
+                        <li><a href="">Chính sách đổi trả</a></li>
+                        <li><a href="">Giao hàng và vận chuyển</a></li>
+                        <li><a href="">Hướng dẫn mua hàng</a></li>
+                        <li><a href="">Hướng dẫn Trả góp</a></li>
+                    </ul>
+                </div>
+
+            </div>
+       
+        </footer>
+
+        <div class="row" id="footer-tail">
+            <div class="frame-footer-tail">
+                <div class="content-footer-tail">
+                    <p>© 2020 - Bản quyền của Xe điện Hinata</p>
+                </div>
+                <div class="img-footer-tail">
+                    <img src="../img/tien-mat.png" alt="#">
+                    <img src="../img/internet-bank.png" alt="#">
+                    <img src="../img/mastercard.png" alt="#">
+                    <img src="../img/visa.png" alt="#">
+                    <img src="../img/bo-cong-thuong.png" alt="#" style="width: 223px;height: 119px;">
+                </div>
+            </div>
+        </div>
+        
+
+<!-- modal -->
+<div class="modal fade" id="frmdn">
+    <div class="modal-dialog modal-lg" style="width: 450px; height: 500px;">
+        <div class="modal-content">
+            <div class="row">
+                <button data-dismiss='modal'
+                    style="color:#28A744;border: 1px solid #333;margin-left: 468px;margin-top: -23px;">&times;</button>
+                <div class="col-md-12" id="modal-header">
+                    <h3 class="text-center text-success" style="margin-top: 21px;">ĐĂNG NHẬP</h3>
+
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-md-3" id="dangnhap">
+
+                    <div
+                        style="margin-top: 24px;margin-left: 39px;border: 1px solid rgb(192, 189, 189);height: 37px; background-color: #EEF0F7;">
+                        <label for="username">
+                            <img src="../img/img_241918 (1).png" alt=""
+                                style="width: 24px;height: 23px;margin-left: 16px;margin-top: 3px;">
+                        </label>
+                        <input id="picture-login" type="file" style="display: none;">
+                    </div>
+                </div>
+
+                <div class="col-md-9">
+                    <label for="username"></label>
+                    <input type="email" name="username" id="username" class="form-control input--username"
+                        placeholder="Tên tài khoản hoặc địa chỉ email" required>
+                    <span id="erusername">*</span>
+
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-3" id="password-col">
+
+                    <div
+                        style="margin-top: 2px;margin-left: 39px;border: 1px solid rgb(192, 189, 189);height: 37px;background-color: #EEF0F7;">
+                        <label for="password">
+                            <img src="../img/logo-password.png" alt=""
+                                style="width: 24px;height: 23px;margin-left: 16px;margin-top: 3px;">
+                        </label>
+                        <input id="picture-login" type="file" style="display: none;">
+                    </div>
+                </div>
+
+                <div class="col-md-9">
+                    <label for="password"></label>
+                    <input type="password" name="password" id="password" class="form-control input--password"
+                        placeholder="Mật khẩu" required>
+                    <span id="erpassword">*</span>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-12" style="margin-left: 24px;margin-top: 12px;">
+                <input type="checkbox" name="remember-pass" id="remember-pass" class="form-control-input"
+                    required>
+                <label for="remember-pass" class="form-control-label">Ghi nhớ mật khẩu</label>
+            </div>
+
+            <div class="col-md-12" style="width: 442px; margin-left: 25px; margin-top: 20px;">
+                <button type="button" class="btn btn-success btn-block btn--submit">Đăng nhập</button>
+            </div>
+
+            <div class="row" style="margin-left: 27px; margin-top: 10px;">
+                <div class="col-md-6" style="float: left;">
+                    <a href="">
+                        <p>Quên mật khẩu</p>
+                    </a>
+                </div>
+
+                <div class="col-md-6" style="float: right; margin-right: -51px;">
+                    <a href="" data-toggle="modal" data-target="#frmdk">
+                        <p>Tạo tài khoản</p>
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <h6 style="text-align: center; color:#333">Đăng nhập bằng</h6>
+            </div>
+
+            <div class="row" style="margin-left: 10px;">
+                <div class="col-md-5" style="width: 100px;">
+                    <button type="button" class="btn btn-primary btn-block">
+                        <img src="../img/logo facebook.png" alt="Facebook logo" width="20" height="20"> Facebook
+                    </button>
+                </div>
+                <div class="col-md-5">
+                    <button type="button" class="btn btn-danger btn-block">
+                        <img src="../img/logo google.webp" alt="Google logo" width="20" height="20"> Google
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- tất cả các class phần input của modal frmdk đều có 1 dấu gạch thôi  -->
+
+<div class="modal fade" id="frmdk">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="row">
+                <button data-dismiss='modal'
+                    style="color:#28A744;border: 1px solid #333;margin-left: 563px;margin-top: -20px;">&times;</button>
+                <div class="col-md-12" id="modal-header">
+                    <h3 class="text-center text-success" style="margin-top: 21px;">ĐĂNG KÝ TÀI KHOẢN</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-10">
+                    <label for="username-2"></label>
+                    <input type="text" name="username-2" id="username-2" placeholder="Tên của bạn"
+                        class="form-control input-username">
+                </div>
+            </div>
+
+            <div class="row" id="row-mail-name">
+                <div class="col-md-5" style="margin-left: 51px">
+                    <label for="email-2"></label>
+                    <input type="email" name="email-2" id="email-2" placeholder="Địa chỉ email của bạn"
+                        class="form-control input-email" required>
+                    <span id="eremail">*</span>
+                </div>
+                <div class="col-md-5" style="margin-right: 51px">
+                    <label for="account"></label>
+                    <input type="text" name="account" id="account" placeholder="Tên tài khoản"
+                        class="form-control input-account">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-10">
+                    <label for="password-2"></label>
+                    <input type="password" name="password-2" id="password-2" placeholder="Mật khẩu"
+                        class="form-control input-password">
+                    <span id="erpassworddk">*</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-10">
+                    <label for="password-3"></label>
+                    <input type="password" name="password-3" id="password-3"
+                        placeholder="Xác nhận mật khẩu của bạn" class="form-control input-password3">
+                    <span id="erpassword-xnmk">*</span>
+                </div>
+            </div>
+
+            <div class="col-md-10" style="margin-top: 20px; margin-left: 37px;">
+                <input type="checkbox" name="agree" id="agree" class="form-control-input">
+                <label for="agree" class="form-control-label">Tôi đồng ý <a href="#">Điều khoản dịch vụ của
+                        Hinata</a></label>
+            </div>
+
+            <div class="col-md-10" style="width: 500px; margin-left: auto; margin-top: 20px;">
+                <button type="button" class="btn btn-success btn-block btn--submit">Đăng ký</button>
+            </div>
+            <br>
+            <div>
+                <h5 style="text-align: center; color:#333">Đăng nhập bằng</h5>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5" style="width: 100px; margin-top: 10px;">
+                    <button type="button" class="btn btn-primary btn-block">
+                        <img src="../img/logo facebook.png" alt="Facebook logo" width="20" height="20"> Facebook
+                    </button>
+                </div>
+                <div class="col-md-5" style=" width: 100px; margin-top: 10px;">
+                    <button type="button" class="btn btn-danger btn-block">
+                        <img src="../img/logo google.webp" alt="Google logo" width="20" height="20"> Google
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</div>
+<script>
+$(document).ready(function () {
+    $('.carousel').carousel({
+        interval: 3000 // thời gian chuyển đổi giữa các hình ảnh là 3 giây
+    });
+
+    $('#btndk').on('show.bs.modal', function (e) {
+        $('#btndn').modal('hide');
+    });
+    //////////////////////////////////////////
+
+    function ktrapassword() {
+        let password = $("#password").val();
+        let patten = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
+
+        if (patten.test(password)) {
+            $("#erpassword").html("*");
+            $("#password").removeClass('errorborder');
+            return true;
+        } else {
+            $("#erpassword").html("Mat khau khong hop le !!!");
+            alert("Mật khẩu phải có ít nhất 1 ký tự số, 1 ký tự đặc biệt và có ít nhất 8 ký tự.");
+            $("#erpassword").addClass('error');
+            $("#password").addClass('errorborder');
+            return false;
+        }
+    }
+
+    $("#password").blur(function (e) {
+        ktrapassword();
+    });
+    //vidu: Abcd@123
+    // -------------------------------------------------
+    function ktrapasswordphandangky() {
+        let password2 = $("#password-2").val();
+        let patten = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
+
+        if (patten.test(password2)) {
+            $("#erpassworddk").html("*");
+            $("#password-2").removeClass('errorborder');
+            return true;
+        } else {
+            $("#erpassworddk").html("Mat khau khong hop le !!!");
+            alert("Mật khẩu phải có ít nhất 1 ký tự số, 1 ký tự đặc biệt và có ít nhất 8 ký tự.");
+            $("#erpassworddk").addClass('error');
+            $("#password-2").addClass('errorborder');
+            return false;
+        }
+    }
+
+    $("#password-2").blur(function (e) {
+        ktrapasswordphandangky();
+    });
+    //vidu: Abcd@123
+    //////////////////////////////////////////
+
+    function xacnhanmatkhaudk() {
+        let password3 = $("#password-2").val();
+        let confirmPassword = $("#password-3").val();
+
+        if (password3 === confirmPassword) {
+            $("#erpasswordxnmk").html("*");
+            $("#password-3").removeClass("errorborder");
+            return true;
+        } else {
+            alert("Mật khẩu xác nhận không khớp với mật khẩu đã đăng ký.");
+            $("#erpasswordxnmk").addClass("error");
+            $("#password-3").addClass("errorborder");
+            return false;
+        }
+    }
+
+
+    $("#password-3").blur(function (e) {
+        xacnhanmatkhaudk();
+    });
+    //vidu: Abcd@123
+    /////////////////////////////////////////////////////////
+    function ktraemail() {
+        let email = $("#email-2").val();
+        let patten = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (email.trim() === "") { // thêm điều kiện email rỗng
+            $("#eremail").html("Vui lòng nhập email");
+            $("#eremail").addClass('error');
+            $("#email-2").addClass('errorborder');
+            return false;
+        } else if (patten.test(email)) {
+            $("#eremail").html("*");
+            $("#email-2").removeClass('errorborder');
+            return true;
+        } else {
+            $("#eremail").html("Email không hợp lệ");
+            $("#eremail").addClass('error');
+            $("#email-2").addClass('errorborder');
+            return false;
+        }
+    }
+
+    $("#email-2").blur(function (e) {
+        ktraemail();
+    });
+    //vidu: Abc@gmail.com
+
+});
+</script>
+    </div>
+</body>
+</html>
